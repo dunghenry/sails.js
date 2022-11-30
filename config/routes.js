@@ -1,14 +1,10 @@
-/**
- * Route Mappings
- * (sails.config.routes)
- *
- * Your routes tell Sails what to do each time it receives a request.
- *
- * For more information on configuring custom routes, check out:
- * https://sailsjs.com/anatomy/config/routes-js
- */
-
 module.exports.routes = {
-
-
+  "GET /": "HomeController/index",
+  "POST /books/create": "BookController/create",
+  "GET /books": "BookController/getAllBooks",
+  "GET /books/:id": "BookController/getBook",
+  "PUT /books/:id": "BookController/updateBook",
+  "DELETE /books/:id": "BookController/deleteBook",
+  "POST /auth/register": "UserController/register",
+  "POST /auth/login": "UserController/login",
 };
