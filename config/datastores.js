@@ -10,7 +10,8 @@ module.exports.datastores = {
     // MongoDB
     adapter: "sails-mongo",
     port: "27017",
-    host: "127.0.0.1",
+    // host: "127.0.0.1",
+    host: "mongo",
     // host: "localhost",
     database: "sails_mongodb",
   },

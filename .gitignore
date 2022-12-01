@@ -132,6 +132,3 @@ lib-cov
 *.out
 *.pid
 .env
-Dockerfile
-docker-compose.yml
-.dockerignore
